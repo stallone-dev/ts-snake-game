@@ -1,0 +1,30 @@
+/*
+    My settings for Zed Editor to maximize DenoJS usage
+    For ".zed/settings.json" file
+
+    Documentation: https://zed.dev/docs/configuring-zed#settings-files
+*/
+{
+    "format_on_save": "on",
+    "formatter": "language_server",
+    "show_wrap_guides": true,
+    "soft_wrap": "editor_width",
+    "languages": {
+        "TypeScript": {
+            "language_servers": [
+                "deno",
+                "!typescript-language-server",
+                "!vtsls",
+                "!eslint"
+            ]
+        },
+        "TSX": {
+            "language_servers": [
+                "deno",
+                "!typescript-language-server",
+                "!vtsls",
+                "!eslint"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "denoland.vscode-deno", // Main DenoJS extension
+        "editorconfig.editorconfig", // Editor config for general patterns
+        "ms-vscode.vscode-typescript-next", // Tools for TypeScript files
+        "yzhang.markdown-all-in-one", // Tools for MarkDown files
+        "christian-kohler.path-intellisense", // Path snippets for imports
+        "humao.rest-client" // Rest client for manual API tests
+    ]
+}
